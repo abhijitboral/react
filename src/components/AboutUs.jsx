@@ -79,7 +79,7 @@ const AboutUs = ({ display_hero = true, display_insta = true }) => {
 				</div>
 			</div>
 			{display_hero && <Facts display={true} pageName="About" />}
-			<Team display_hero={false} />
+			{display_hero && <Team display_hero={false} />}
 			{display_insta && <InstagramFeed display_feed={true} />}
 		</>
 	);
