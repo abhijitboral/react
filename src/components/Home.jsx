@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="row g-5 py-5">
 					<div className="col-12 wow fadeIn" data-wow-delay="0.1s">
 						<h1 className="display-1 text-secondary text-center mb-0">
-							John Doe
+							CHEFER
 						</h1>
 					</div>
 					<div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">

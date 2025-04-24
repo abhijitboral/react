@@ -1,6 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const myRouter = () => {
+import AboutUs from "../components/AboutUs";
+import Menu from "../components/Menu";
+import Team from "../components/Team";
+import Testimonial from "../components/Testimonial";
+import Feature from "../components/Feature";
+import Page404 from "../components/404";
+import Blog from "../components/Blog";
+import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
+import Home from "../components/Home";
+
+const MyRouter = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<Navbar />}>
@@ -17,4 +28,4 @@ const myRouter = () => {
 		</Routes>
 	);
 };
-export default myRouter;
+export default MyRouter;
